@@ -1,0 +1,28 @@
+{
+    "main": "lib/binding.js",
+    "dependencies": {
+        "node-addon-api": "^1.1.0"
+    },
+    "scripts": {
+        "pretest": "tsc",
+        "test": "node --napi-modules ./test/test_binding.js"
+    },
+    "gypfile": true,
+    "name": "chp-lights-module",
+    "version": "1.0.0",
+    "description": "State Machine integration for chp-lighting library",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andrewdbinder/chp-lights-module.git"
+    },
+    "author": "andrewdbinder",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/andrewdbinder/chp-lights-module/issues"
+    },
+    "homepage": "https://github.com/andrewdbinder/chp-lights-module#readme",
+    "devDependencies": {
+        "@types/node": "^7.0.22",
+        "typescript": "^2.3.3"
+    }
+}
