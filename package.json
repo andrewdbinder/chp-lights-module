@@ -9,7 +9,7 @@
     },
     "gypfile": true,
     "name": "@andrewdbinder/chp-lights-module",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Node module to implement the state machine from chp-lighting",
     "repository": {
         "type": "git",
