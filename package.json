@@ -1,28 +1,31 @@
 {
-  "main": "lib/binding.js",
-  "dependencies": {
-    "node-addon-api": "^1.1.0",
-	"node-gyp-build": "^3.3.0"
-  },
-  "scripts": {
-    "install": "node-gyp-build",
-    "test": "node --napi-modules ./test/test_binding.js"
-  },
-  "gypfile": true,
-  "name": "@andrewdbinder/chp-lights-module",
-  "version": "1.0.3",
-  "description": "Node module to implement the state machine from chp-lighting",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andrewdbinder/chp-lights-module.git"
-  },
-  "author": "andrewdbinder",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andrewdbinder/chp-lights-module/issues"
-  },
-  "homepage": "https://github.com/andrewdbinder/chp-lights-module#readme",
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/andrewdbinder"
-  }
+    "main": "lib/binding.js",
+    "dependencies": {
+        "node-addon-api": "^1.1.0"
+    },
+    "scripts": {
+        "pretest": "tsc",
+        "test": "node --napi-modules ./test/test_binding.js"
+    },
+    "gypfile": true,
+    "name": "@andrewdbinder/chp-lights-module",
+    "version": "1.0.4",
+    "description": "Node module to implement the state machine from chp-lighting",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andrewdbinder/chp-lights-module.git"
+    },
+    "author": "andrewdbinder",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/andrewdbinder/chp-lights-module/issues"
+    },
+    "homepage": "https://github.com/andrewdbinder/chp-lights-module#readme",
+    "devDependencies": {
+        "@types/node": "^14.14.22",
+        "typescript": "^4.1.3"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/andrewdbinder"
+    }
 }
