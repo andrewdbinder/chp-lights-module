@@ -1,4 +1,4 @@
-const ChpLightsModule = require("../dist/binding.js");
+const ChpLightsModule = require("../lib/binding.js");
 const assert = require("assert");
 
 assert(ChpLightsModule, "The expected function is undefined");
