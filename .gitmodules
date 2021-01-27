@@ -1,0 +1,3 @@
+[submodule "src/chp-lights"]
+	path = src/chp-lights
+	url = git@github.com:andrewdbinder/chp-lighting.git
