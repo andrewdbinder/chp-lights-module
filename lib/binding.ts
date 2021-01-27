@@ -1,3 +1,5 @@
 const addon = require('../build/Release/chp-lights-module-native');
 
-module.exports = addon.ChpLightsModule;
+module.exports.ChpLightsModule = addon.ChpLightsModule;
+module.exports.GetState = addon.GetState;
+module.exports.ChangeState = addon.ChangeState;
