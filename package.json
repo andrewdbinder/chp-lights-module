@@ -7,8 +7,8 @@
     "test": "node --napi-modules ./test/test_binding.js"
   },
   "gypfile": true,
-  "name": "chp-lights-module",
-  "version": "1.0.0",
+  "name": "@andrewdbinder/chp-lights-module",
+  "version": "1.0.2",
   "description": "Node module to implement the state machine from chp-lighting",
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/andrewdbinder/chp-lights-module/issues"
   },
-  "homepage": "https://github.com/andrewdbinder/chp-lights-module#readme"
+  "homepage": "https://github.com/andrewdbinder/chp-lights-module#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/andrewdbinder"
+  }
 }
