@@ -5,11 +5,12 @@
     },
     "scripts": {
         "pretest": "tsc",
-        "test": "node --napi-modules ./test/test_binding.js"
+        "test": "node --napi-modules ./test/test_binding.js",
+        "rebuild": "electron-rebuild -f -w @andrewdbinder/chp-lights-module"
     },
     "gypfile": true,
     "name": "@andrewdbinder/chp-lights-module",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Node module to implement the state machine from chp-lighting",
     "repository": {
         "type": "git",
